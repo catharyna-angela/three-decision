@@ -1,12 +1,11 @@
-var p = document.getElementById('pergunta')  //Pergunta principal: 'você precisa disso?'
+let p = document.getElementById('pergunta')  //Pergunta principal: 'você precisa disso?'
 
-var ok = document.getElementById('botao')  //Botão de 'OK'
+let ok = document.getElementById('botao')  //Botão de 'OK'
 ok.addEventListener('click',clicar)  //Função clicar do botão 'OK'
 
-var nao = document.getElementById('nao')  //Variável do input "não"
-var sim = document.getElementById('sim')  //Variável do input "sim"
-
-var count = 0  //Incio da contagem
+let nao = document.getElementById('nao')  //Variável do input "não"
+let sim = document.getElementById('sim')  //Variável do input "sim"
+let count = 0  //Incio da contagem
 
 function clicar (){
 
